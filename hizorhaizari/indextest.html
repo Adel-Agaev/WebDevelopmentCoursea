@@ -1,0 +1,108 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>חיזור חייזרי</title>
+    <meta name="description" content="name of game" />
+
+
+
+    <meta name="keywords" content="" />
+    <meta name="author" content="names" />
+
+    <!-- CSS -->
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+
+</head>
+
+<!-- <a href="https://de.freepik.com/fotos-vektoren-kostenlos/hintergrund">Hintergrund Vektor erstellt von freepik - de.freepik.com</a> -->
+<!--<a href="https://de.freepik.com/fotos-vektoren-kostenlos/hintergrund">Hintergrund Vektor erstellt von freepik - de.freepik.com</a-->
+
+
+<body>
+    <div id="container">
+
+
+        <header>
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <a href="indextest.html">
+
+                <img id="logo" src="images/לוגו.png" /> <!--הלוגו של המשחק שלכם-->
+                <p>חיזור חייזרי</p>
+            </a>
+            <!--תפריט הניווט בראש העמוד-->
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a class="howToPlay">איך משחקים?</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+
+            <a class="closeAbout">X</a>
+
+
+
+            <p>
+                אודות
+                <br />
+                חיזור חייזרי
+            </p>
+            
+            
+         
+            <img src="images/לוגו.png"  />
+
+            <p>
+
+                אפיון ופיתוח אדל אגאייב ועמית בלנק
+                <br />
+                אופיין ופותח במסגרת פרויקט בקורסים:
+                סביבות לימוד אינטראקטיביות 1+תכנות אינטראקטיבי 1
+                <br />
+                תש"פ
+            </p>
+            <img id="logohit" src="images/לוגו 1.png" />
+            <p>
+                מכון טכנולוגי חולון
+                <br />
+                <a href="https://www.hit.ac.il/telem/overview">הפקולטה לטכנולוגית למידה </a>
+
+
+            </p>
+
+        </div>
+        <div id="howToPlayDiv" class="popUp bounceInDown hide">
+            <a class="closeHowToPlay">X</a>
+            <p>איך משחקים?</p>
+            <p>
+                חזי וחזית בחיזור חייזרי, עזרו להם להגיע לאחוזי התאמה גבוהים בינהם
+                <br />
+                בעזרת העכבר תוכלו לעבור על אפשרויות ההתאמה השונות.
+                <br />
+                בעת לחיצה על התשובה הנכונה תוכלו להתאים בין חזי לחזית
+            </p>
+            <img id="gamehizor" src="images/HOWTOPLAY (2).png" />
+        </div>
+
+        <div id="gameArea" class="">
+            <!--src = הקישור של דף המשחק שלכם (לא קובץ האנימייט)-->
+            <iframe id="gameIframe" src="game 1.7 (2).html" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>
+        </div>
+    </div>
+</body>
+
+</html>
